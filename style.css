@@ -1,0 +1,44 @@
+* {
+  font-family: 'Playfair Display', serif;
+}
+
+body {
+  background: url(canadaFlag.jpg) no-repeat fixed center;
+  background-size: cover;
+  padding: 78.73px auto;
+}
+
+.mainPgFrame {
+  background: white;
+  border: 5px solid red;
+  border-radius: 20px;
+  text-align: center;
+  width: 300px;
+  margin: auto;
+}
+
+hr {
+  width: 10%;
+}
+
+p {
+  margin: 20px;
+}
+
+a {
+  background: red;
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 10px 30px;
+  margin-bottom: 20px;
+  display: inline-block;
+  width: 50px;
+}
+
+a:hover {
+  background: white;
+  color: black;
+  padding: 8px 28px;
+  border: 2px solid red;
+}
