@@ -49,3 +49,7 @@ a:hover {
 h1 {
   text-align: center;
 }
+
+li {
+  margin: 10px 0;
+}
