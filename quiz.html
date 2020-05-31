@@ -1,3 +1,7 @@
+<!-- Canada Website w/ Quiz - Quiz Page -->
+<!-- Serag Elgamal -->
+<!-- 5/31/2020 -->
+
 <!DOCTYPE html>
 <html>
 
@@ -8,7 +12,99 @@
 </head>
 
 <body>
+  <div class="container">
+    <div class="alignCenter">
+      <h1>Quiz</h1>
+      <p>The quiz consists of ten multiple-choice and true-or-false questions. After answering all the questions, click the "Mark" button at the bottom of the page to see how well you did.</p>
+    </div>
+    <hr>
+    <ol>
+      <li>When was Canada formed?
+        <ol type="a">
+          <li><input type="radio" name="q1" id="a1">1867</li>
+          <li><input type="radio" name="q1">1776</li>
+          <li><input type="radio" name="q1">2020</li>
+          <li><input type="radio" name="q1">1876</li>
+        </ol>
+      </li>
+      <li>How large is Canada compared to the rest of the world?
+        <ol type="a">
+          <li><input type="radio" name="q2">57th-largest</li>
+          <li><input type="radio" name="q2">4th-largest</li>
+          <li><input type="radio" name="q2">the largest</li>
+          <li><input type="radio" name="q2" id="a2">2nd-largest</li>
+        </ol>
+      </li>
+      <li>What is Canada's national anthem?
+        <ol type="a">
+          <li><input type="radio" name="q3"><em>God Save the Queen</em></li>
+          <li><input type="radio" name="q3"><em>SICKO MODE</em></li>
+          <li><input type="radio" name="q3"><em>The Star Spangled Banner</em></li>
+          <li><input type="radio" name="q3" id="a3"><em>O Canada</em></li>
+        </ol>
+      </li>
+      <li>What is Canada's capital city?
+        <ol type="a">
+          <li><input type="radio" name="q4" id="a4">Ottawa</li>
+          <li><input type="radio" name="q4">Toronto</li>
+          <li><input type="radio" name="q4">Ontario</li>
+          <li><input type="radio" name="q4">New York</li>
+        </ol>
+      </li>
+      <li>What is Canada's population?
+        <ol type="a">
+          <li><input type="radio" name="q5">1 billion</li>
+          <li><input type="radio" name="q5" id="a5">37 million</li>
+          <li><input type="radio" name="q5">40 million</li>
+          <li><input type="radio" name="q5">35 million</li>
+        </ol>
+      </li>
+      <li>How many official sports does Canada have?
+        <ol type="a">
+          <li><input type="radio" name="q6">one</li>
+          <li><input type="radio" name="q6">one hundred</li>
+          <li><input type="radio" name="q6" id="a6">two</li>
+          <li><input type="radio" name="q6">three</li>
+        </ol>
+      </li>
+      <li>True or False: Canada has the fourth-longest coastline in the world.
+        <ul>
+          <li><input type="radio" name="q7">true</li>
+          <li><input type="radio" name="q7" id="a7">false</li>
+        </ul>
+      </li>
+      <li>True or False: Canada has more than half of all of the world's lakes.
+        <ul>
+          <li><input type="radio" name="q8" id="a8">true</li>
+          <li><input type="radio" name="q8">false</li>
+        </ul>
+      </li>
+      <li>What language is primarily spoken in Quebec?
+        <ol type="a">
+          <li><input type="radio" name="q9" id="a9">French</li>
+          <li><input type="radio" name="q9">English</li>
+          <li><input type="radio" name="q9">Spanish</li>
+          <li><input type="radio" name="q9">Mandarin</li>
+        </ol>
+      </li>
+      <li>Where in Canada is the Bay of Fundy located?
+        <ol type="a">
+          <li><input type="radio" name="q10">southern Canada</li>
+          <li><input type="radio" name="q10">northern Canada</li>
+          <li><input type="radio" name="q10" id="a10">eastern Canada</li>
+          <li><input type="radio" name="q10">western Canada</li>
+        </ol>
+      </li>
+    </ol>
+    <hr>
+    <div class="alignCenter">
+      <h4>Your score: <span id="scoreText">---</span>/10</h4>
+      <a id="markButton">Mark</a>
+    </div>
+  </div>
 
+  <!-- load js -->
+  <script src="main.js"></script>
 </body>
 
 </html>

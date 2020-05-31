@@ -1,3 +1,7 @@
+/* Canada Website w/ Quiz - Style Sheet */
+/* Serag Elgamal */
+/* 5/31/2020 */
+
 * {
   font-family: 'Playfair Display', serif;
 }
@@ -7,7 +11,7 @@ body {
   background-size: cover;
 }
 
-div {
+.container {
   background: white;
   border: 5px solid red;
   border-radius: 20px;
@@ -36,6 +40,9 @@ a {
   padding: 10px 30px;
   margin-bottom: 20px;
   display: inline-block;
+}
+
+#infoButton {
   width: 50px;
 }
 
@@ -68,9 +75,9 @@ img {
 }
 
 .media {
-  width: auto;
   margin: auto;
   text-align: center;
+  display: block;
 }
 
 img.media {
@@ -80,4 +87,12 @@ img.media {
 div.media {
   background: transparent;
   border: none;
+}
+
+.alignCenter {
+  text-align: center;
+}
+
+h3 {
+  margin: 20px;
 }
